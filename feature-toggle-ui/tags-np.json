@@ -1,0 +1,26 @@
+[
+	{
+    	"Key": "mon:owner",
+        "Value": "aerup-DEVELOPER"
+    },
+	{
+    	"Key": "mon:cost-center",
+        "Value": "5180-9115-PSC80003"
+    },
+	{
+    	"Key": "mon:project",
+        "Value": "aerup"
+    },
+	{
+    	"Key": "mon:env",
+        "Value": "non-prod"
+    },
+	{
+    	"Key": "mon:regulated",
+        "Value": "no"
+    },
+	{
+    	"Key": "mon:data-classification",
+        "Value": "restricted"
+    }
+]

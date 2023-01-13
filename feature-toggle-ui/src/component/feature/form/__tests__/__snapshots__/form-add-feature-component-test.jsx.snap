@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the create feature page 1`] = `
+<react-mdl-Card
+  className="fullwidth"
+  shadow={0}
+  style={
+    Object {
+      "overflow": "visible",
+    }
+  }
+>
+  <react-mdl-CardTitle
+    style={
+      Object {
+        "paddingTop": "24px",
+        "wordBreak": "break-all",
+      }
+    }
+  >
+    Create feature toggle
+  </react-mdl-CardTitle>
+  <form>
+    <section
+      style={
+        Object {
+          "padding": "16px",
+        }
+      }
+    >
+      <react-mdl-Textfield
+        error={Object {}}
+        floatingLabel={true}
+        label="Name"
+        name="name"
+        onBlur={[Function]}
+        onChange={[Function]}
+        required={true}
+        value="feature"
+      />
+      <react-mdl-Textfield
+        floatingLabel={true}
+        label="Description"
+        onChange={[Function]}
+        required={true}
+        rows={1}
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        value="Description"
+      />
+      <div>
+        <br />
+        <react-mdl-Switch
+          onChange={[Function]}
+        >
+          Non Prod Enabled
+        </react-mdl-Switch>
+        <br />
+        <react-mdl-Switch
+          onChange={[Function]}
+        >
+          Prod Enabled
+        </react-mdl-Switch>
+        <hr />
+      </div>
+    </section>
+    <react-mdl-CardActions>
+      <FormButtons
+        onCancel={[MockFunction]}
+        submitText="Create"
+      />
+    </react-mdl-CardActions>
+  </form>
+</react-mdl-Card>
+`;

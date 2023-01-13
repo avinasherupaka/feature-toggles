@@ -1,0 +1,13 @@
+fileignoreconfig:
+- filename: src/component/styles.scss
+  checksum: 16ee21c802590ee7b025fb3becd04b6cf9b94147515a1d630dd1b90eb224c10c
+  ignore_detectors: []
+- filename: yarn.lock
+  checksum: 453b93ba12e4330ae01e0dbea2dd40a15f6d673008bcf207f91651b52fbb1358
+  ignore_detectors: []
+- filename: environment.json
+  checksum: 995278ad08c1c6fb579aeed637d1b56c31f3a228e62933b9b8bdfb68b616d9b8
+  ignore_detectors: []
+- filename: fargate_build_deploy.sh
+  checksum: 29201b5714a4d1a1ff9afda82c450eaeba3345ef8b6fcd2a32169800fd5c65cc
+  ignore_detectors: []

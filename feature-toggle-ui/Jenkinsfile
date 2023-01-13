@@ -1,0 +1,21 @@
+pipeline {
+  agent any
+  stages {
+    stage('Deploy to AWS') {
+      when {
+        anyOf {
+          branch "master"
+        }
+      }
+      steps {
+        sh 'chmod 755 ./fargate_build_deploy.sh'
+        sh '''cat ./fargate_deploy_params.txt | awk -v FS="np=" 'NF>1{print $2}' | xargs ./fargate_build_deploy.sh'''
+      }
+    }
+  }
+  post {
+    failure {
+      slackSend color: "danger", message: "ಠ_ಠ ${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult}: \n Check console output at ${env.BUILD_URL} to view the results. @titans-team"
+    }
+  }
+}

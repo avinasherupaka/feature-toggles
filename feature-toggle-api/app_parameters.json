@@ -1,0 +1,26 @@
+[
+    {
+      "ParameterKey": "Cpu",
+      "ParameterValue": "256"
+    },
+    {
+      "ParameterKey": "Memory",
+      "ParameterValue": "1GB"
+    },
+    {
+      "ParameterKey": "AppName",
+      "ParameterValue": "aerup-feature-toggle-api"
+    },
+    {
+      "ParameterKey": "InstanceCount",
+      "ParameterValue": "1"
+    },
+    {
+      "ParameterKey": "HealthCheckPath",
+      "ParameterValue": "/ping"
+    },
+    {
+      "ParameterKey": "TaskExecutionRoleName",
+      "ParameterValue": "aerup-fargate-task-execution-role"
+    }
+  ]

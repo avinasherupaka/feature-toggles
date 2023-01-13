@@ -1,0 +1,1 @@
+np=--accountId=****************--fargateStackName=SC-****AWS*AC*#****-pp-qipgqjbmsiw2y --tagsFile=./tags-np.json --region=us-east-1 --fargateNotificationArn=arn:aws:sns:us-east-1:****AWS*AC*#****:aerup-cf-notifier-aerupCFNotifierTopic-GI9LPJHZG8WN --buildDockerImage=true --deployToFargate=true --stopForSmoketesting=false
